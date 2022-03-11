@@ -7,7 +7,7 @@
      
       <a href="/article/{{article.id}}">{{article.name}}</a>
     </h2>
-    <p>Created by {{user.name}} on {{format_date article.date_created}}</p>
+    <p>Created by {{article.user.name}} on {{format_date article.date_created}}</p>
   </div>
   <div class="col-md-7">
     <p>
