@@ -30,6 +30,13 @@ Article.init(
         key: 'id',
       },
     },
+    user_name: {
+      type: DataTypes.STRING,
+      references: {
+        model: 'user',
+        key: 'name',
+      },
+    },
   },
   {
     sequelize,
