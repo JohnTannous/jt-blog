@@ -18,6 +18,10 @@
         <label for="article-desc">description:</label>
         <textarea class="form-input" id="article-desc" name="article-desc"></textarea>
       </div>
+        <div class="form-group">
+        <label for="article-story">story:</label>
+        <textarea class="form-input" id="article-story" name="article-story"></textarea>
+      </div>
       <div class="form-group">
         <button type="submit" class="btn btn-primary">Create</button>
       </div>
@@ -29,7 +33,7 @@
     <h3>Current Articles:</h3>
 
     {{#each articles as |article|}}
-    <div class="row mb-2">
+    <div class="float-child mb-2">
       <div class="col-md-8">
         <h4><a href="/article/{{article.id}}">{{article.name}}</a></h4>
       </div>

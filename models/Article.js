@@ -18,6 +18,9 @@ Article.init(
     description: {
       type: DataTypes.STRING,
     },
+    story: {
+      type: DataTypes.TEXT('long'),
+    },
     date_created: {
       type: DataTypes.DATE,
       allowNull: false,
