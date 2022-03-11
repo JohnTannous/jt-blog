@@ -420,12 +420,12 @@ button {
 }
 
 a {
-  color: #1b89bc;
+  color: red;
   text-decoration: none;
 }
 
 a:hover {
-  color: #065b83;
+  color: crimson;
   text-decoration: underline;
 }
 
@@ -880,7 +880,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #2d3e50 !important;
+  color: red !important;
 }
 
 .text-info {
@@ -912,12 +912,12 @@ a:hover {
 }
 
 .text-link {
-  color: #1b89bc !important;
+  color: red !important;
 }
 
 /* BACKGROUND UTILS */
 .bg-primary {
-  background-color: #2d3e50 !important;
+  background-color: red !important;
 }
 
 .bg-info {
@@ -945,7 +945,7 @@ a:hover {
 }
 
 .bg-link {
-  background-color: #1b89bc !important;
+  background-color: red !important;
 }
 
 /* DISPLAY */
@@ -1009,8 +1009,9 @@ a:hover {
 }
 
 .btn.btn-primary {
-  background-color: #2d3e50;
-  color: #d9e9e8;
+  background-color: red;
+  color: black;
+  font-weight: bold;
 }
 
 .btn.btn-primary:hover {
@@ -1072,7 +1073,7 @@ a:hover {
 }
 
 .btn.btn-link {
-  background-color: #1b89bc;
+  background-color: red;
   color: #ffffff;
 }
 
@@ -1087,8 +1088,8 @@ a:hover {
 
 .card .card-header {
   padding: 0.375rem;
-  background-color: #2d3e50;
-  color: #d9e9e8;
+  background-color: crimson;
+  color: black;
 }
 
 .card .card-body {
